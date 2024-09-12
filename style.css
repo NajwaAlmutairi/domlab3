@@ -1,0 +1,74 @@
+.hover-text {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.hover-text::after {
+    content: "this is text 1";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.hover-text:hover::after {
+    display: block;
+}
+/*  */
+.hover-text2 {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.hover-text2::after {
+    content: "this is text 2";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.hover-text2:hover::after {
+    display: block;
+}
+/*  */
+.hover-text3 {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.hover-text3::after {
+    content: "this is text 3";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.hover-text3:hover::after {
+    display: block;
+}
